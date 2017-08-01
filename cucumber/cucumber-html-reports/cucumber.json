@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "valid username and valid password",
+        "description": "",
+        "id": "test-scotia-login;valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 366011655,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Scotia Login Page",
+            "match": {
+              "location": "MyStepdefs.scotia_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31210,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i See username",
+            "match": {
+              "location": "MyStepdefs.i_See_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27655,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "password",
+            "match": {
+              "location": "MyStepdefs.password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27260,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username and password",
+            "match": {
+              "location": "MyStepdefs.enter_usrename_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35160,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "MyStepdefs.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test scotia login",
+    "description": "",
+    "id": "test-scotia-login",
+    "keyword": "Feature",
+    "uri": "my.feature"
+  }
+]
