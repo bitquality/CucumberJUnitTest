@@ -11,7 +11,7 @@
 
 <dependencies>
 
-
+  <!--  ***********Remove below dependency if you have plugin installed*******************-->
     <dependency>
         <groupId>info.cukes</groupId>
         <artifactId>cucumber-java</artifactId>
